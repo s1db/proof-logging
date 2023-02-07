@@ -1,0 +1,717 @@
+constraint 1 added:  1 x1 + 1 x2 + 1 x3 + 1 x4 + 1 x5 >= 1
+constraint 2 added:  1 x6 + 1 x7 + 1 x8 + 1 x9 + 1 x10 >= 1
+constraint 3 added:  1 x11 + 1 x12 + 1 x13 + 1 x14 + 1 x15 >= 1
+constraint 4 added:  1 x16 + 1 x17 + 1 x18 + 1 x19 + 1 x20 >= 1
+constraint 5 added:  1 x21 + 1 x22 + 1 x23 + 1 x24 + 1 x25 >= 1
+constraint 6 added:  1 x26 + 1 x27 + 1 x28 + 1 x29 + 1 x30 >= 1
+constraint 7 added:  -1 x1 + -1 x6 + -1 x11 + -1 x16 + -1 x21 + -1 x26 >= -1
+constraint 8 added:  -1 x2 + -1 x7 + -1 x12 + -1 x17 + -1 x22 + -1 x27 >= -1
+constraint 9 added:  -1 x3 + -1 x8 + -1 x13 + -1 x18 + -1 x23 + -1 x28 >= -1
+constraint 10 added:  -1 x4 + -1 x9 + -1 x14 + -1 x19 + -1 x24 + -1 x29 >= -1
+constraint 11 added:  -1 x5 + -1 x10 + -1 x15 + -1 x20 + -1 x25 + -1 x30 >= -1
+MODEL PARSED -- NO OF CONSTRAINTS:  11
+FILE TYPE:  pseudo-Boolean proof version 1.0
+
+FORMULA CHECK:  f 11
+
+RUP STEP:  u 1 ~x5 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, 5, -26, -27]
+    RUP Succeeded
+constraint 12 added:  1 x26 + 1 x27 + 1 ~x5 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x10 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, 10]
+    RUP Succeeded
+constraint 13 added:  1 x26 + 1 ~x10 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x15 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, 15]
+    RUP Succeeded
+constraint 14 added:  1 x26 + 1 ~x15 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x20 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, 20]
+    RUP Succeeded
+constraint 15 added:  1 x26 + 1 ~x20 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x25 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, 25]
+    RUP Succeeded
+constraint 16 added:  1 x26 + 1 ~x25 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 ~x9 >= 1 ;
+    ASSIGNMENT:  [9, -2, -5, -3, -1]
+    RUP Succeeded
+constraint 17 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 ~x9 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 ~x14 >= 1 ;
+    ASSIGNMENT:  [14, -2, -5, -3, -1]
+    RUP Succeeded
+constraint 18 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 ~x14 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 ~x19 >= 1 ;
+    ASSIGNMENT:  [19, -2, -5, -3, -1]
+    RUP Succeeded
+constraint 19 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 ~x19 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 ~x24 >= 1 ;
+    ASSIGNMENT:  [-2, 24, -5, -3, -1]
+    RUP Succeeded
+constraint 20 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 ~x24 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 ~x29 >= 1 ;
+    ASSIGNMENT:  [29, -2, -5, -3, -1]
+    RUP Succeeded
+constraint 21 added:  1 x1 + 1 x3 + 1 x2 + 1 ~x29 + 1 x5 >= 1
+RUP STEP:  u 1 ~x1 1 x17 1 x18 1 x19 1 x20 >= 1 ;
+    ASSIGNMENT:  [1, -20, -19, -18, -17]
+    RUP Succeeded
+constraint 22 added:  1 x17 + 1 x18 + 1 x19 + 1 x20 + 1 ~x1 >= 1
+RUP STEP:  u 1 ~x6 1 x17 1 x18 1 x19 1 x20 >= 1 ;
+    ASSIGNMENT:  [6, -20, -19, -18, -17]
+    RUP Succeeded
+constraint 23 added:  1 x17 + 1 x18 + 1 x19 + 1 x20 + 1 ~x6 >= 1
+RUP STEP:  u 1 ~x11 1 x17 1 x18 1 x19 1 x20 >= 1 ;
+    ASSIGNMENT:  [11, -20, -19, -18, -17]
+    RUP Succeeded
+constraint 24 added:  1 x17 + 1 x18 + 1 x19 + 1 x20 + 1 ~x11 >= 1
+RUP STEP:  u 1 x17 1 x18 1 x19 1 x20 1 ~x21 >= 1 ;
+    ASSIGNMENT:  [-20, -19, -18, -17, 21]
+    RUP Succeeded
+constraint 25 added:  1 ~x21 + 1 x17 + 1 x18 + 1 x19 + 1 x20 >= 1
+RUP STEP:  u 1 x17 1 x18 1 x19 1 x20 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [-20, -19, -18, -17, 26]
+    RUP Succeeded
+constraint 26 added:  1 ~x26 + 1 x17 + 1 x18 + 1 x19 + 1 x20 >= 1
+RUP STEP:  u 1 ~x9 1 x11 1 x12 1 x13 1 x15 >= 1 ;
+    ASSIGNMENT:  [9, -15, -13, -12, -11]
+    RUP Succeeded
+constraint 27 added:  1 x11 + 1 x12 + 1 x13 + 1 x15 + 1 ~x9 >= 1
+RUP STEP:  u 1 x11 1 x12 1 x13 1 x15 1 ~x19 >= 1 ;
+    ASSIGNMENT:  [-15, 19, -12, -11, -13]
+    RUP Succeeded
+constraint 28 added:  1 x11 + 1 x12 + 1 ~x19 + 1 x15 + 1 x13 >= 1
+RUP STEP:  u 1 x11 1 x12 1 x13 1 x15 1 ~x24 >= 1 ;
+    ASSIGNMENT:  [-15, -13, -12, -11, 24]
+    RUP Succeeded
+constraint 29 added:  1 ~x24 + 1 x11 + 1 x12 + 1 x13 + 1 x15 >= 1
+RUP STEP:  u 1 x11 1 x12 1 x13 1 x15 1 ~x29 >= 1 ;
+    ASSIGNMENT:  [-15, -13, -12, -11, 29]
+    RUP Succeeded
+constraint 30 added:  1 ~x29 + 1 x11 + 1 x12 + 1 x13 + 1 x15 >= 1
+RUP STEP:  u 1 x1 1 x2 1 x3 1 x5 1 x11 1 x12 1 x13 1 x15 >= 1 ;
+    ASSIGNMENT:  [-15, -13, -12, -11, -2, -5, -3, -1]
+    RUP Succeeded
+constraint 31 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 x11 + 1 x12 + 1 x13 + 1 x15 >= 1
+RUP STEP:  u 1 ~x5 1 x6 1 x7 1 x8 1 x9 >= 1 ;
+    ASSIGNMENT:  [5, -9, -8, -7, -6]
+    RUP Succeeded
+constraint 32 added:  1 x6 + 1 x7 + 1 x8 + 1 ~x5 + 1 x9 >= 1
+RUP STEP:  u 1 x6 1 x7 1 x8 1 x9 1 ~x15 >= 1 ;
+    ASSIGNMENT:  [15, -9, -8, -7, -6]
+    RUP Succeeded
+constraint 33 added:  1 x6 + 1 x7 + 1 x8 + 1 x9 + 1 ~x15 >= 1
+RUP STEP:  u 1 x6 1 x7 1 x8 1 x9 1 ~x20 >= 1 ;
+    ASSIGNMENT:  [20, -9, -8, -7, -6]
+    RUP Succeeded
+constraint 34 added:  1 x6 + 1 x7 + 1 x8 + 1 x9 + 1 ~x20 >= 1
+RUP STEP:  u 1 x6 1 x7 1 x8 1 x9 1 ~x25 >= 1 ;
+    ASSIGNMENT:  [-9, -8, 25, -6, -7]
+    RUP Succeeded
+constraint 35 added:  1 x6 + 1 ~x25 + 1 x8 + 1 x9 + 1 x7 >= 1
+RUP STEP:  u 1 x6 1 x7 1 x8 1 x9 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-6, -29, -28, -27, -26, -9, -8, -7]
+    RUP Succeeded
+constraint 36 added:  1 x26 + 1 x6 + 1 x9 + 1 x8 + 1 x7 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x1 1 x22 1 x23 1 x24 1 x25 >= 1 ;
+    ASSIGNMENT:  [1, -25, -24, -23, -22]
+    RUP Succeeded
+constraint 37 added:  1 x23 + 1 x25 + 1 x22 + 1 ~x1 + 1 x24 >= 1
+RUP STEP:  u 1 ~x6 1 x22 1 x23 1 x24 1 x25 >= 1 ;
+    ASSIGNMENT:  [6, -25, -24, -23, -22]
+    RUP Succeeded
+constraint 38 added:  1 x22 + 1 x23 + 1 x24 + 1 x25 + 1 ~x6 >= 1
+RUP STEP:  u 1 ~x11 1 x22 1 x23 1 x24 1 x25 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -23, -22, 11]
+    RUP Succeeded
+constraint 39 added:  1 ~x11 + 1 x22 + 1 x23 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 x22 1 x23 1 x24 1 x25 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -23, -22, 26]
+    RUP Succeeded
+constraint 40 added:  1 ~x26 + 1 x22 + 1 x23 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 x17 1 x18 1 x19 1 x20 1 x22 1 x23 1 x24 1 x25 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -23, -22, -20, -19, -18, -17]
+    RUP Succeeded
+constraint 41 added:  1 x17 + 1 x18 + 1 x23 + 1 x20 + 1 x19 + 1 x22 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 x13 1 x7 1 x6 1 x26 1 x27 1 x28 1 x29 1 x11 1 x12 1 x1 1 x2 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -13, -12, -11, -1, -7, -6, -2]
+    RUP Succeeded
+constraint 42 added:  1 x1 + 1 x2 + 1 x6 + 1 x7 + 1 x11 + 1 x12 + 1 x13 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x17 1 x6 1 x26 1 x27 1 x28 1 x29 1 x1 1 x11 >= 1 ;
+    ASSIGNMENT:  [-6, -29, -28, -27, -26, 17, -11, -1]
+    RUP Succeeded
+constraint 43 added:  1 x26 + 1 x1 + 1 x6 + 1 x11 + 1 ~x17 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x13 1 x2 1 x20 1 x22 1 x23 1 x24 1 x25 1 x1 1 x5 1 x17 >= 1 ;
+    ASSIGNMENT:  [13, -25, -24, -23, -22, -20, -17, -1, -5, -2]
+    RUP Succeeded
+constraint 44 added:  1 x1 + 1 x2 + 1 x5 + 1 x17 + 1 x20 + 1 x22 + 1 x23 + 1 x24 + 1 x25 + 1 ~x13 >= 1
+RUP STEP:  u 1 ~x7 1 x23 1 x20 1 x5 1 x15 1 x24 1 x25 1 x1 >= 1 ;
+    ASSIGNMENT:  [7, -24, -23, -25, -20, -15, -1, -5]
+    RUP Succeeded
+constraint 45 added:  1 x1 + 1 x5 + 1 x15 + 1 x24 + 1 x20 + 1 x23 + 1 ~x7 + 1 x25 >= 1
+RUP STEP:  u 1 x12 1 x11 1 x17 1 x7 1 x26 1 x27 1 x28 1 x29 1 x13 1 x18 1 x1 1 x2 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -18, -17, -13, -12, -11, -1, -7, -2]
+    RUP Succeeded
+constraint 46 added:  1 x1 + 1 x2 + 1 x7 + 1 x11 + 1 x12 + 1 x13 + 1 x17 + 1 x18 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x22 1 x17 1 x8 1 x26 1 x27 1 x28 1 x29 1 x18 1 x7 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -22, -18, -17, -8, -7]
+    RUP Succeeded
+constraint 47 added:  1 x7 + 1 x8 + 1 x17 + 1 x18 + 1 x22 + 1 x23 + 1 x24 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x17 1 x2 1 x26 1 x27 1 x28 1 x29 1 x18 1 x13 1 x1 1 x8 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -18, -17, -13, -1, -8, -2]
+    RUP Succeeded
+constraint 48 added:  1 x1 + 1 x2 + 1 x8 + 1 x13 + 1 x17 + 1 x18 + 1 x23 + 1 x24 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x17 1 x23 1 x27 1 x28 1 x29 1 x1 1 x26 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, 17, -1]
+    RUP Succeeded
+constraint 49 added:  1 x1 + 1 x26 + 1 ~x17 + 1 x23 + 1 x24 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x18 1 x22 1 x1 1 x26 1 x27 1 x28 1 x29 1 x11 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -22, -18, -11, -1]
+    RUP Succeeded
+constraint 50 added:  1 x1 + 1 x11 + 1 x18 + 1 x22 + 1 x23 + 1 x24 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x22 1 x11 1 x1 1 x26 1 x27 1 x28 1 x29 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -22, -11, -1]
+    RUP Succeeded
+constraint 51 added:  1 x1 + 1 x11 + 1 x22 + 1 x23 + 1 x24 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x18 1 x11 1 x5 1 x1 1 x2 1 x12 1 x15 >= 1 ;
+    ASSIGNMENT:  [-15, 18, -12, -11, -2, -5, -1]
+    RUP Succeeded
+constraint 52 added:  1 x1 + 1 x2 + 1 x5 + 1 x11 + 1 x12 + 1 ~x18 + 1 x15 >= 1
+RUP STEP:  u 1 x11 1 x23 1 x27 1 x28 1 x29 1 x1 1 x26 1 x24 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -11, -1]
+    RUP Succeeded
+constraint 53 added:  1 x1 + 1 x26 + 1 x11 + 1 x23 + 1 x24 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x19 1 x7 1 x6 1 x26 1 x27 1 x28 1 x29 1 x1 1 x2 >= 1 ;
+    ASSIGNMENT:  [-6, -29, -28, -27, -26, 19, -2, -7, -1]
+    RUP Succeeded
+constraint 54 added:  1 x1 + 1 x26 + 1 x6 + 1 x2 + 1 x7 + 1 x28 + 1 ~x19 + 1 x27 + 1 x29 >= 1
+RUP STEP:  u 1 x23 1 x24 1 x27 1 x28 1 x29 1 x1 1 x26 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -24, -23, -1]
+    RUP Succeeded
+constraint 55 added:  1 x1 + 1 x26 + 1 x23 + 1 x24 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x2 1 x7 1 x3 1 x13 1 x18 1 x8 1 x1 1 x26 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -18, -13, -1, -8, -7, -3, -2]
+    RUP Succeeded
+constraint 56 added:  1 x1 + 1 x2 + 1 x3 + 1 x7 + 1 x8 + 1 x13 + 1 x18 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x11 1 x7 1 x8 1 x26 1 x27 1 x28 1 x29 1 x18 1 x17 1 x13 1 x12 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -18, -17, -13, -12, -11, -8, -7]
+    RUP Succeeded
+constraint 57 added:  1 x7 + 1 x8 + 1 x11 + 1 x12 + 1 x13 + 1 x17 + 1 x18 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x7 1 x8 1 x26 1 x27 1 x28 1 x29 1 x18 1 x13 1 x3 1 x1 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -18, -13, -8, -7, -3, -1]
+    RUP Succeeded
+constraint 58 added:  1 x1 + 1 x3 + 1 x7 + 1 x8 + 1 x13 + 1 x18 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x23 1 x26 1 x1 1 x27 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -27, -26, 23, -1]
+    RUP Succeeded
+constraint 59 added:  1 x1 + 1 x26 + 1 ~x23 + 1 x27 + 1 x29 >= 1
+RUP STEP:  u 1 ~x7 1 x20 1 ~x24 1 x15 1 x1 1 x5 >= 1 ;
+    ASSIGNMENT:  [7, -20, -15, 24, -5, -1]
+    RUP Succeeded
+constraint 60 added:  1 x1 + 1 x5 + 1 ~x24 + 1 x15 + 1 x20 + 1 ~x7 >= 1
+RUP STEP:  u 1 ~x11 1 x18 1 x26 1 x27 1 x28 1 x29 1 x1 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, 11, -18, -1]
+    RUP Succeeded
+constraint 61 added:  1 x1 + 1 x26 + 1 x29 + 1 x18 + 1 ~x11 + 1 x27 + 1 x28 >= 1
+RUP STEP:  u 1 ~x17 1 x11 1 x15 1 ~x24 1 x1 1 x5 >= 1 ;
+    ASSIGNMENT:  [-15, 17, -11, 24, -5, -1]
+    RUP Succeeded
+constraint 62 added:  1 x1 + 1 x5 + 1 ~x24 + 1 x11 + 1 x15 + 1 ~x17 >= 1
+RUP STEP:  u 1 x18 1 x26 1 x1 1 x27 1 x28 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -18, -1]
+    RUP Succeeded
+constraint 63 added:  1 x1 + 1 x26 + 1 x29 + 1 x18 + 1 x27 + 1 x28 >= 1
+RUP STEP:  u 1 x26 1 x27 1 x28 1 x29 1 x1 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -26, -1]
+    RUP Succeeded
+constraint 64 added:  1 x1 + 1 x26 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x15 1 x8 1 x7 1 ~x26 1 x22 1 x23 1 x12 1 x13 >= 1 ;
+    ASSIGNMENT:  [-23, -22, -15, -13, -12, -8, -7, 26]
+    RUP Succeeded
+constraint 65 added:  1 ~x26 + 1 x7 + 1 x8 + 1 x12 + 1 x13 + 1 x15 + 1 x22 + 1 x23 >= 1
+RUP STEP:  u 1 ~x18 1 x22 1 ~x26 1 x7 1 x12 >= 1 ;
+    ASSIGNMENT:  [-22, 18, -12, -7, 26]
+    RUP Succeeded
+constraint 66 added:  1 ~x26 + 1 x7 + 1 x12 + 1 ~x18 + 1 x22 >= 1
+RUP STEP:  u 1 ~x15 1 x22 1 ~x26 1 x7 1 x17 1 x18 >= 1 ;
+    ASSIGNMENT:  [-22, -18, 15, -17, -7, 26]
+    RUP Succeeded
+constraint 67 added:  1 ~x26 + 1 x7 + 1 x17 + 1 ~x15 + 1 x18 + 1 x22 >= 1
+RUP STEP:  u 1 ~x8 1 x17 1 ~x26 1 x12 1 x22 1 x15 >= 1 ;
+    ASSIGNMENT:  [8, -22, -17, -15, -12, 26]
+    RUP Succeeded
+constraint 68 added:  1 ~x26 + 1 x12 + 1 x15 + 1 x17 + 1 x22 + 1 ~x8 >= 1
+RUP STEP:  u 1 x13 1 x8 1 x7 1 ~x26 1 x17 1 x18 1 x12 1 x15 >= 1 ;
+    ASSIGNMENT:  [-18, -17, -13, -12, -15, -8, -7, 26]
+    RUP Succeeded
+constraint 69 added:  1 ~x26 + 1 x7 + 1 x8 + 1 x12 + 1 x13 + 1 x15 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 ~x20 1 x22 1 ~x26 1 x23 1 x7 1 x8 >= 1 ;
+    ASSIGNMENT:  [-23, -22, 20, -8, -7, 26]
+    RUP Succeeded
+constraint 70 added:  1 ~x26 + 1 x7 + 1 x8 + 1 ~x20 + 1 x22 + 1 x23 >= 1
+RUP STEP:  u 1 ~x2 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [2, 26]
+    RUP Succeeded
+constraint 71 added:  1 ~x26 + 1 ~x2 >= 1
+RUP STEP:  u 1 ~x22 1 x18 1 x5 1 ~x26 1 x20 1 x1 1 x8 1 x7 1 x15 >= 1 ;
+    ASSIGNMENT:  [-20, -18, -15, 22, -8, -7, 26, -5, -1]
+    RUP Succeeded
+constraint 72 added:  1 x1 + 1 x5 + 1 ~x26 + 1 x7 + 1 x8 + 1 ~x22 + 1 x15 + 1 x18 + 1 x20 >= 1
+RUP STEP:  u 1 x18 1 x24 1 x20 1 x1 1 x5 1 x15 1 x25 1 ~x26 1 x8 1 x7 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -8, -20, -18, -15, 26, -5, -7, -1]
+    RUP Succeeded
+constraint 73 added:  1 x1 + 1 x5 + 1 x7 + 1 x8 + 1 x15 + 1 x18 + 1 x20 + 1 x24 + 1 x25 + 1 ~x26 >= 1
+RUP STEP:  u 1 x24 1 x25 1 ~x26 1 x1 1 x5 1 x15 1 x20 1 x8 1 x7 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -8, -20, -15, 26, -5, -7, -1]
+    RUP Succeeded
+constraint 74 added:  1 x1 + 1 x5 + 1 x8 + 1 ~x26 + 1 x7 + 1 x15 + 1 x20 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 x9 1 x20 1 ~x26 1 x1 1 x8 1 x7 >= 1 ;
+    ASSIGNMENT:  [-20, -9, -8, -7, 26, -1]
+    RUP Succeeded
+constraint 75 added:  1 x1 + 1 ~x26 + 1 x7 + 1 x8 + 1 x9 + 1 x20 >= 1
+RUP STEP:  u 1 ~x18 1 ~x9 1 ~x26 1 x1 >= 1 ;
+    ASSIGNMENT:  [9, 18, 26, -1]
+    RUP Succeeded
+constraint 76 added:  1 x1 + 1 ~x26 + 1 ~x18 + 1 ~x9 >= 1
+RUP STEP:  u 1 ~x13 1 x22 1 ~x26 1 x1 1 ~x9 >= 1 ;
+    ASSIGNMENT:  [9, -22, 13, 26, -1]
+    RUP Succeeded
+constraint 77 added:  1 x1 + 1 ~x26 + 1 ~x9 + 1 ~x13 + 1 x22 >= 1
+RUP STEP:  u 1 x20 1 x7 1 x1 1 x8 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [-20, -8, -7, 26, -1]
+    RUP Succeeded
+constraint 78 added:  1 x1 + 1 ~x26 + 1 x7 + 1 x8 + 1 x20 >= 1
+RUP STEP:  u 1 x7 1 x8 1 x1 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [-8, -7, 26, -1]
+    RUP Succeeded
+constraint 79 added:  1 x1 + 1 ~x26 + 1 x7 + 1 x8 >= 1
+RUP STEP:  u 1 x5 1 x18 1 x17 1 ~x26 1 x1 1 x3 1 x12 1 x13 >= 1 ;
+    ASSIGNMENT:  [-18, -17, -13, -12, 26, -5, -3, -1]
+    RUP Succeeded
+constraint 80 added:  1 x1 + 1 x3 + 1 x5 + 1 ~x26 + 1 x12 + 1 x13 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 ~x23 1 x17 1 ~x26 1 x1 1 x12 >= 1 ;
+    ASSIGNMENT:  [-17, -12, 23, 26, -1]
+    RUP Succeeded
+constraint 81 added:  1 x1 + 1 ~x26 + 1 ~x23 + 1 x12 + 1 x17 >= 1
+RUP STEP:  u 1 ~x5 1 x13 1 x22 1 x23 1 x12 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [5, -23, -22, -13, -12, 26]
+    RUP Succeeded
+constraint 82 added:  1 ~x26 + 1 x12 + 1 x13 + 1 x22 + 1 x23 + 1 ~x5 >= 1
+RUP STEP:  u 1 x15 1 x13 1 x17 1 x22 1 x1 1 x12 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [-22, -17, -15, -13, -12, 26, -1]
+    RUP Succeeded
+constraint 83 added:  1 x1 + 1 ~x26 + 1 x12 + 1 x13 + 1 x15 + 1 x17 + 1 x22 >= 1
+RUP STEP:  u 1 x13 1 x17 1 ~x26 1 x1 1 x22 1 x12 >= 1 ;
+    ASSIGNMENT:  [-22, -17, -13, -12, 26, -1]
+    RUP Succeeded
+constraint 84 added:  1 x1 + 1 ~x26 + 1 x12 + 1 x13 + 1 x17 + 1 x22 >= 1
+RUP STEP:  u 1 x5 1 x17 1 ~x26 1 x18 1 x22 1 x23 1 x1 1 x3 >= 1 ;
+    ASSIGNMENT:  [-23, -22, -18, -17, 26, -5, -3, -1]
+    RUP Succeeded
+constraint 85 added:  1 x1 + 1 x3 + 1 x5 + 1 ~x26 + 1 x17 + 1 x18 + 1 x22 + 1 x23 >= 1
+RUP STEP:  u 1 ~x7 1 ~x26 1 x1 >= 1 ;
+    ASSIGNMENT:  [7, 26]
+    RUP Succeeded
+constraint 86 added:  1 x1 + 1 ~x26 + 1 ~x7 >= 1
+RUP STEP:  u 1 ~x24 1 x20 1 ~x26 1 x18 1 x13 1 x15 >= 1 ;
+    ASSIGNMENT:  [-20, -18, -15, -13, 24, 26]
+    RUP Succeeded
+constraint 87 added:  1 ~x26 + 1 ~x24 + 1 x13 + 1 x15 + 1 x18 + 1 x20 >= 1
+RUP STEP:  u 1 ~x5 1 ~x26 1 x18 1 x13 1 x23 >= 1 ;
+    ASSIGNMENT:  [5, -23, -18, -13, 26]
+    RUP Succeeded
+constraint 88 added:  1 ~x26 + 1 x13 + 1 x18 + 1 x23 + 1 ~x5 >= 1
+RUP STEP:  u 1 ~x17 1 ~x26 1 x1 >= 1 ;
+    ASSIGNMENT:  [17, 26, -1]
+    RUP Succeeded
+constraint 89 added:  1 x1 + 1 ~x26 + 1 ~x17 >= 1
+RUP STEP:  u 1 ~x26 >= 1 ;
+    ASSIGNMENT:  [26]
+    RUP Succeeded
+constraint 90 added:  1 ~x26 >= 1
+RUP STEP:  u 1 ~x25 1 x19 1 x18 1 x17 1 x8 1 x7 1 x9 >= 1 ;
+    ASSIGNMENT:  [-19, -18, -17, -9, -8, 25, -7]
+    RUP Succeeded
+constraint 91 added:  1 x7 + 1 ~x25 + 1 x8 + 1 x9 + 1 x17 + 1 x18 + 1 x19 >= 1
+RUP STEP:  u 1 x3 1 x1 1 x23 1 x22 1 x24 1 x18 1 x17 1 x27 1 x7 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [-27, -24, -23, -22, -18, -17, -1, -7, -5, -3, -2]
+    RUP Succeeded
+constraint 92 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 x7 + 1 x17 + 1 x18 + 1 x22 + 1 x23 + 1 x24 + 1 x27 >= 1
+RUP STEP:  u 1 x1 1 x24 1 x23 1 x22 1 x7 1 x18 1 x17 1 x27 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [-27, -24, -23, -22, -18, -17, -1, -7, -5, -2]
+    RUP Succeeded
+constraint 93 added:  1 x1 + 1 x2 + 1 x5 + 1 x7 + 1 x17 + 1 x18 + 1 x22 + 1 x23 + 1 x24 + 1 x27 >= 1
+RUP STEP:  u 1 x24 1 x18 1 x7 1 x17 1 x27 1 x22 1 x23 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [-27, -5, -23, -22, -24, -18, -17, -7, -2]
+    RUP Succeeded
+constraint 94 added:  1 x2 + 1 x5 + 1 x7 + 1 x17 + 1 x18 + 1 x24 + 1 x23 + 1 x22 + 1 x27 >= 1
+RUP STEP:  u 1 ~x25 1 x29 1 x27 1 x18 1 x17 1 x19 1 x7 1 x9 >= 1 ;
+    ASSIGNMENT:  [-29, -27, -19, -18, -17, -7, -9, 25]
+    RUP Succeeded
+constraint 95 added:  1 ~x25 + 1 x7 + 1 x27 + 1 x9 + 1 x17 + 1 x18 + 1 x29 + 1 x19 >= 1
+RUP STEP:  u 1 ~x8 1 ~x24 1 x17 1 x27 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [-27, -5, 8, -17, 24, -2]
+    RUP Succeeded
+constraint 96 added:  1 x2 + 1 x5 + 1 ~x24 + 1 x17 + 1 ~x8 + 1 x27 >= 1
+RUP STEP:  u 1 x28 1 x29 1 x7 1 x27 1 x8 1 x9 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -9, -8, -7]
+    RUP Succeeded
+constraint 97 added:  1 x7 + 1 x8 + 1 x27 + 1 x9 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x18 1 x23 1 x17 1 x5 1 x2 1 x27 1 x22 1 x7 >= 1 ;
+    ASSIGNMENT:  [-27, -5, -23, -22, -18, -17, -7, -2]
+    RUP Succeeded
+constraint 98 added:  1 x2 + 1 x5 + 1 x7 + 1 x17 + 1 x18 + 1 x22 + 1 x23 + 1 x27 >= 1
+RUP STEP:  u 1 x29 1 x23 1 x22 1 x27 1 x28 1 x7 1 x8 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -23, -22, -8, -7]
+    RUP Succeeded
+constraint 99 added:  1 x27 + 1 x7 + 1 x8 + 1 x22 + 1 x23 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x23 1 x5 1 x22 1 x7 1 x2 1 x27 1 x17 >= 1 ;
+    ASSIGNMENT:  [-27, -5, -23, -22, -17, -7, -2]
+    RUP Succeeded
+constraint 100 added:  1 x2 + 1 x5 + 1 x7 + 1 x17 + 1 x22 + 1 x23 + 1 x27 >= 1
+RUP STEP:  u 1 ~x29 1 x8 1 x7 1 x17 1 x18 1 x3 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [-18, -17, -3, -8, -7, -5, 29, -2]
+    RUP Succeeded
+constraint 101 added:  1 x2 + 1 ~x29 + 1 x3 + 1 x5 + 1 x7 + 1 x8 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 x5 1 x27 1 x17 1 x7 1 x2 1 x22 >= 1 ;
+    ASSIGNMENT:  [-27, -5, -22, -17, -7, -2]
+    RUP Succeeded
+constraint 102 added:  1 x2 + 1 x5 + 1 x7 + 1 x17 + 1 x22 + 1 x27 >= 1
+RUP STEP:  u 1 ~x1 1 x8 1 x7 1 ~x5 1 x17 1 x18 >= 1 ;
+    ASSIGNMENT:  [1, 5, -18, -17, -8, -7]
+    RUP Succeeded
+constraint 103 added:  1 x7 + 1 ~x5 + 1 x8 + 1 x17 + 1 x18 + 1 ~x1 >= 1
+RUP STEP:  u 1 ~x9 1 x18 1 x20 1 x23 1 x17 1 x22 1 x25 >= 1 ;
+    ASSIGNMENT:  [-25, 9, -22, -23, -20, -18, -17]
+    RUP Succeeded
+constraint 104 added:  1 x17 + 1 x18 + 1 ~x9 + 1 x23 + 1 x20 + 1 x22 + 1 x25 >= 1
+RUP STEP:  u 1 ~x28 1 x22 1 x17 1 ~x5 1 x7 >= 1 ;
+    ASSIGNMENT:  [5, -22, -17, -7, 28]
+    RUP Succeeded
+constraint 105 added:  1 ~x28 + 1 ~x5 + 1 x7 + 1 x17 + 1 x22 >= 1
+RUP STEP:  u 1 x18 1 ~x5 1 x7 1 x9 1 x17 1 x19 1 x24 1 x22 >= 1 ;
+    ASSIGNMENT:  [5, -24, -22, -19, -18, -17, -9, -7]
+    RUP Succeeded
+constraint 106 added:  1 x7 + 1 ~x5 + 1 x9 + 1 x17 + 1 x18 + 1 x19 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x12 >= 1 ;
+    ASSIGNMENT:  [12]
+    RUP Succeeded
+constraint 107 added:  1 ~x12 >= 1
+RUP STEP:  u 1 ~x5 1 x7 1 x23 1 x13 1 x8 1 x28 1 x9 >= 1 ;
+    ASSIGNMENT:  [-28, 5, -23, -9, -13, -8, -7]
+    RUP Succeeded
+constraint 108 added:  1 x7 + 1 ~x5 + 1 x9 + 1 x8 + 1 x28 + 1 x13 + 1 x23 >= 1
+RUP STEP:  u 1 ~x22 1 x5 1 x8 1 x28 1 x9 1 x13 1 x3 >= 1 ;
+    ASSIGNMENT:  [-28, -13, 22, -9, -8, -5, -3]
+    RUP Succeeded
+constraint 109 added:  1 x3 + 1 x5 + 1 x8 + 1 x9 + 1 ~x22 + 1 x28 + 1 x13 >= 1
+RUP STEP:  u 1 x6 1 ~x29 1 x22 1 x13 1 x23 1 x8 1 x7 1 x9 >= 1 ;
+    ASSIGNMENT:  [-23, -22, -9, -13, -8, -7, -6, 29]
+    RUP Succeeded
+constraint 110 added:  1 ~x29 + 1 x6 + 1 x7 + 1 x8 + 1 x9 + 1 x13 + 1 x22 + 1 x23 >= 1
+RUP STEP:  u 1 ~x29 1 x22 1 x23 1 x13 1 x8 1 x7 >= 1 ;
+    ASSIGNMENT:  [-23, -22, -13, -8, -7, 29]
+    RUP Succeeded
+constraint 111 added:  1 ~x29 + 1 x7 + 1 x8 + 1 x13 + 1 x22 + 1 x23 >= 1
+RUP STEP:  u 1 ~x6 1 x22 1 ~x18 1 x5 1 x2 >= 1 ;
+    ASSIGNMENT:  [6, -22, 18, -5, -2]
+    RUP Succeeded
+constraint 112 added:  1 ~x6 + 1 x2 + 1 x5 + 1 ~x18 + 1 x22 >= 1
+RUP STEP:  u 1 x24 1 x5 1 ~x18 1 x2 1 x15 1 x22 1 x25 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -22, -15, 18, -5, -2]
+    RUP Succeeded
+constraint 113 added:  1 x2 + 1 x5 + 1 ~x18 + 1 x15 + 1 x22 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 x7 1 ~x18 1 x9 >= 1 ;
+    ASSIGNMENT:  [18, -9, -7]
+    RUP Succeeded
+constraint 114 added:  1 x7 + 1 x9 + 1 ~x18 >= 1
+RUP STEP:  u 1 ~x24 1 x13 1 x27 1 x28 >= 1 ;
+    ASSIGNMENT:  [-28, -27, -13, 24]
+    RUP Succeeded
+constraint 115 added:  1 x27 + 1 ~x24 + 1 x28 + 1 x13 >= 1
+RUP STEP:  u 1 x29 1 x15 1 x2 1 x22 1 ~x18 1 x27 >= 1 ;
+    ASSIGNMENT:  [-29, -27, -22, -15, 18, -2]
+    RUP Succeeded
+constraint 116 added:  1 x2 + 1 ~x18 + 1 x15 + 1 x22 + 1 x27 + 1 x29 >= 1
+RUP STEP:  u 1 x15 1 x2 1 x22 1 ~x18 1 x27 >= 1 ;
+    ASSIGNMENT:  [-27, -22, -15, 18, -2]
+    RUP Succeeded
+constraint 117 added:  1 x2 + 1 ~x18 + 1 x15 + 1 x22 + 1 x27 >= 1
+RUP STEP:  u 1 ~x18 1 x9 >= 1 ;
+    ASSIGNMENT:  [18, -9]
+    RUP Succeeded
+constraint 118 added:  1 x9 + 1 ~x18 >= 1
+RUP STEP:  u 1 x23 1 x2 1 ~x29 1 ~x15 1 x9 1 x22 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -23, -22, 15, -9, 29, -2]
+    RUP Succeeded
+constraint 119 added:  1 x2 + 1 ~x29 + 1 x9 + 1 ~x15 + 1 x22 + 1 x23 + 1 x24 >= 1
+RUP STEP:  u 1 x2 1 ~x29 1 x9 1 ~x15 1 x22 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -22, 15, -9, 29, -2]
+    RUP Succeeded
+constraint 120 added:  1 x2 + 1 ~x29 + 1 x9 + 1 ~x15 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x29 1 x22 1 ~x15 >= 1 ;
+    ASSIGNMENT:  [-22, 15, 29]
+    RUP Succeeded
+constraint 121 added:  1 ~x29 + 1 ~x15 + 1 x22 >= 1
+RUP STEP:  u 1 ~x2 1 ~x15 1 x24 1 x9 >= 1 ;
+    ASSIGNMENT:  [2, -24, 15, -9]
+    RUP Succeeded
+constraint 122 added:  1 x9 + 1 ~x15 + 1 x24 + 1 ~x2 >= 1
+RUP STEP:  u 1 x7 1 x23 1 x24 1 x22 1 ~x15 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, -23, -22, 15, -9, -7]
+    RUP Succeeded
+constraint 123 added:  1 x7 + 1 x9 + 1 ~x15 + 1 x22 + 1 x23 + 1 x24 >= 1
+RUP STEP:  u 1 x23 1 x22 1 x24 1 ~x15 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, -23, -22, 15, -9]
+    RUP Succeeded
+constraint 124 added:  1 x9 + 1 ~x15 + 1 x22 + 1 x23 + 1 x24 >= 1
+RUP STEP:  u 1 x22 1 ~x15 1 x9 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -22, 15, -9]
+    RUP Succeeded
+constraint 125 added:  1 x9 + 1 ~x15 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x28 1 x2 1 x17 1 ~x15 1 x7 1 x9 >= 1 ;
+    ASSIGNMENT:  [-17, 15, -9, -7, 28, -2]
+    RUP Succeeded
+constraint 126 added:  1 x2 + 1 ~x28 + 1 x7 + 1 x9 + 1 ~x15 + 1 x17 >= 1
+RUP STEP:  u 1 ~x15 1 x24 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, 15, -9]
+    RUP Succeeded
+constraint 127 added:  1 x9 + 1 ~x15 + 1 x24 >= 1
+RUP STEP:  u 1 ~x3 1 x7 1 x9 1 ~x29 1 x15 >= 1 ;
+    ASSIGNMENT:  [3, -15, 29, -9, -7]
+    RUP Succeeded
+constraint 128 added:  1 ~x29 + 1 x7 + 1 x9 + 1 x15 + 1 ~x3 >= 1
+RUP STEP:  u 1 x20 1 x17 1 x9 1 x2 1 ~x29 1 x15 1 x7 >= 1 ;
+    ASSIGNMENT:  [-20, -17, -15, -9, -7, 29, -2]
+    RUP Succeeded
+constraint 129 added:  1 x2 + 1 ~x29 + 1 x7 + 1 x9 + 1 x15 + 1 x17 + 1 x20 >= 1
+RUP STEP:  u 1 x17 1 x7 1 ~x29 1 x15 1 x2 1 x9 >= 1 ;
+    ASSIGNMENT:  [-17, -15, -9, -7, 29, -2]
+    RUP Succeeded
+constraint 130 added:  1 x2 + 1 ~x29 + 1 x7 + 1 x9 + 1 x15 + 1 x17 >= 1
+RUP STEP:  u 1 ~x8 1 x22 1 x2 1 ~x29 1 x15 1 x24 >= 1 ;
+    ASSIGNMENT:  [8, -24, -22, -15, 29, -2]
+    RUP Succeeded
+constraint 131 added:  1 x2 + 1 ~x29 + 1 x15 + 1 x22 + 1 ~x8 + 1 x24 >= 1
+RUP STEP:  u 1 ~x5 1 x22 1 ~x29 1 x24 1 x7 1 x8 1 x9 >= 1 ;
+    ASSIGNMENT:  [5, -24, -8, -22, -9, -7, 29]
+    RUP Succeeded
+constraint 132 added:  1 ~x29 + 1 ~x5 + 1 x8 + 1 x7 + 1 x9 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x7 1 ~x29 1 x24 1 x9 1 x2 >= 1 ;
+    ASSIGNMENT:  [-24, -9, -7, 29, -2]
+    RUP Succeeded
+constraint 133 added:  1 x2 + 1 ~x29 + 1 x7 + 1 x9 + 1 x24 >= 1
+RUP STEP:  u 1 ~x1 1 x22 1 x24 1 x15 1 ~x29 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [1, -24, -22, -18, -17, -15, 29]
+    RUP Succeeded
+constraint 134 added:  1 ~x29 + 1 x15 + 1 x17 + 1 x18 + 1 ~x1 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x13 1 ~x29 1 x24 1 x22 1 x17 1 x1 1 x2 >= 1 ;
+    ASSIGNMENT:  [-24, -22, 13, -17, -2, 29, -1]
+    RUP Succeeded
+constraint 135 added:  1 x1 + 1 x2 + 1 ~x29 + 1 x17 + 1 ~x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x29 1 x2 >= 1 ;
+    ASSIGNMENT:  [29, -2]
+    RUP Succeeded
+constraint 136 added:  1 x2 + 1 ~x29 >= 1
+RUP STEP:  u 1 x5 1 x7 1 x8 1 x9 1 x17 1 x1 1 x2 1 x3 1 x15 1 x13 >= 1 ;
+    ASSIGNMENT:  [-17, -15, -13, -1, -9, -8, -7, -5, -3, -2]
+    RUP Succeeded
+constraint 137 added:  1 x1 + 1 x2 + 1 x3 + 1 x5 + 1 x7 + 1 x8 + 1 x9 + 1 x13 + 1 x15 + 1 x17 >= 1
+RUP STEP:  u 1 ~x23 1 x1 1 x9 1 x24 1 x22 1 x13 1 x2 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -9, 23, -13, -2, -1]
+    RUP Succeeded
+constraint 138 added:  1 x1 + 1 x2 + 1 ~x23 + 1 x9 + 1 x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x19 1 x1 1 x9 1 x2 1 x22 1 x24 1 x13 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -9, 19, -13, -2, -1]
+    RUP Succeeded
+constraint 139 added:  1 x1 + 1 x2 + 1 x9 + 1 x13 + 1 ~x19 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x3 1 x1 1 x22 1 x9 1 x24 1 x19 1 x29 >= 1 ;
+    ASSIGNMENT:  [-29, 3, -24, -22, -19, -9, -1]
+    RUP Succeeded
+constraint 140 added:  1 x1 + 1 x9 + 1 x29 + 1 x19 + 1 x22 + 1 x24 + 1 ~x3 >= 1
+RUP STEP:  u 1 ~x27 1 x1 1 x24 1 x2 1 x13 1 x22 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -9, -13, -2, 27, -1]
+    RUP Succeeded
+constraint 141 added:  1 x1 + 1 x2 + 1 ~x27 + 1 x9 + 1 x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x11 1 x19 1 x8 1 x9 1 x22 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -23, -8, 11, -22, -19, -9]
+    RUP Succeeded
+constraint 142 added:  1 x8 + 1 x9 + 1 x19 + 1 ~x11 + 1 x23 + 1 x24 + 1 x22 >= 1
+RUP STEP:  u 1 x1 1 x13 1 x22 1 x24 1 x2 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -9, -13, -2, -1]
+    RUP Succeeded
+constraint 143 added:  1 x1 + 1 x2 + 1 x9 + 1 x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x7 1 x8 1 x19 1 ~x1 1 x9 1 x29 1 x28 >= 1 ;
+    ASSIGNMENT:  [1, -29, -28, -19, -9, -8, -7]
+    RUP Succeeded
+constraint 144 added:  1 x7 + 1 x8 + 1 x9 + 1 x19 + 1 x28 + 1 x29 + 1 ~x1 >= 1
+RUP STEP:  u 1 ~x23 1 ~x1 1 x29 1 x19 1 x9 >= 1 ;
+    ASSIGNMENT:  [1, -29, -19, -9, 23]
+    RUP Succeeded
+constraint 145 added:  1 ~x23 + 1 x9 + 1 x19 + 1 x29 + 1 ~x1 >= 1
+RUP STEP:  u 1 x13 1 x22 1 x9 1 x24 1 x2 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -13, -9, -2]
+    RUP Succeeded
+constraint 146 added:  1 x2 + 1 x9 + 1 x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x7 1 x19 1 x9 1 x8 1 x24 1 x22 1 x23 1 x29 1 x28 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -24, -23, -8, -22, -19, -9, -7]
+    RUP Succeeded
+constraint 147 added:  1 x8 + 1 x7 + 1 x9 + 1 x19 + 1 x22 + 1 x23 + 1 x24 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 x27 1 x22 1 x23 1 x24 1 x29 1 x28 >= 1 ;
+    ASSIGNMENT:  [-29, -28, -27, -24, -23, -22]
+    RUP Succeeded
+constraint 148 added:  1 x22 + 1 x23 + 1 x24 + 1 x27 + 1 x28 + 1 x29 >= 1
+RUP STEP:  u 1 ~x1 1 x8 1 x7 1 x9 1 x22 1 x23 1 x24 >= 1 ;
+    ASSIGNMENT:  [1, -24, -23, -8, -22, -9, -7]
+    RUP Succeeded
+constraint 149 added:  1 x8 + 1 x7 + 1 x9 + 1 x23 + 1 x22 + 1 x24 + 1 ~x1 >= 1
+RUP STEP:  u 1 x22 1 x2 1 x9 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -9, -2]
+    RUP Succeeded
+constraint 150 added:  1 x2 + 1 x9 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x1 1 x17 1 x15 1 x7 1 x9 1 x2 1 x27 >= 1 ;
+    ASSIGNMENT:  [-27, -17, -15, -2, -9, -7, -1]
+    RUP Succeeded
+constraint 151 added:  1 x1 + 1 x2 + 1 x7 + 1 x9 + 1 x15 + 1 x17 + 1 x27 >= 1
+RUP STEP:  u 1 ~x28 1 x17 1 ~x1 1 x15 1 x7 1 x9 >= 1 ;
+    ASSIGNMENT:  [1, -17, -15, -9, -7, 28]
+    RUP Succeeded
+constraint 152 added:  1 ~x28 + 1 x7 + 1 x9 + 1 x15 + 1 x17 + 1 ~x1 >= 1
+RUP STEP:  u 1 x2 1 x24 1 x9 >= 1 ;
+    ASSIGNMENT:  [-24, -9, -2]
+    RUP Succeeded
+constraint 153 added:  1 x2 + 1 x9 + 1 x24 >= 1
+RUP STEP:  u 1 ~x1 1 x28 1 x9 1 x24 >= 1 ;
+    ASSIGNMENT:  [1, -28, -24, -9]
+    RUP Succeeded
+constraint 154 added:  1 x9 + 1 x24 + 1 x28 + 1 ~x1 >= 1
+RUP STEP:  u 1 ~x8 1 ~x29 1 x17 1 x22 1 x24 1 x15 >= 1 ;
+    ASSIGNMENT:  [8, -24, -22, -17, -15, 29]
+    RUP Succeeded
+constraint 155 added:  1 ~x29 + 1 x15 + 1 x17 + 1 x22 + 1 ~x8 + 1 x24 >= 1
+RUP STEP:  u 1 x20 1 ~x29 1 x15 1 x18 1 x17 1 x22 1 x24 1 x25 >= 1 ;
+    ASSIGNMENT:  [-25, -24, -22, -20, -18, -17, -15, 29]
+    RUP Succeeded
+constraint 156 added:  1 ~x29 + 1 x15 + 1 x17 + 1 x18 + 1 x20 + 1 x22 + 1 x24 + 1 x25 >= 1
+RUP STEP:  u 1 ~x29 >= 1 ;
+    ASSIGNMENT:  [29]
+    RUP Succeeded
+constraint 157 added:  1 ~x29 >= 1
+RUP STEP:  u 1 ~x20 1 x3 1 x28 1 x13 1 x22 1 x24 >= 1 ;
+    ASSIGNMENT:  [-28, -24, -22, -13, 20, -3]
+    RUP Succeeded
+constraint 158 added:  1 x3 + 1 ~x20 + 1 x28 + 1 x13 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x23 1 x19 1 x24 1 x15 1 x18 1 x17 1 x22 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -19, -18, -17, -15, 23]
+    RUP Succeeded
+constraint 159 added:  1 ~x23 + 1 x15 + 1 x17 + 1 x18 + 1 x19 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x9 1 ~x25 1 x17 1 x19 1 x18 1 x22 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -19, -18, -17, -9, 25]
+    RUP Succeeded
+constraint 160 added:  1 ~x25 + 1 x9 + 1 x17 + 1 x18 + 1 x19 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x20 1 x19 1 x24 1 x15 1 x17 1 x22 1 x18 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -20, -19, -18, -17, -15]
+    RUP Succeeded
+constraint 161 added:  1 x15 + 1 x17 + 1 x18 + 1 x19 + 1 x20 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x2 1 x11 1 x15 1 x1 1 x5 1 x22 1 x24 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -15, -11, -2, -5, -1]
+    RUP Succeeded
+constraint 162 added:  1 x1 + 1 x2 + 1 x5 + 1 x11 + 1 x15 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x19 1 x15 1 x22 1 x24 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -19, -18, -17, -15]
+    RUP Succeeded
+constraint 163 added:  1 x15 + 1 x17 + 1 x18 + 1 x19 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x11 1 x9 1 x22 1 x24 1 x18 >= 1 ;
+    ASSIGNMENT:  [-24, -22, 11, -18, -9]
+    RUP Succeeded
+constraint 164 added:  1 x9 + 1 x18 + 1 ~x11 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x15 1 x24 1 x22 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -18, -17, -15]
+    RUP Succeeded
+constraint 165 added:  1 x15 + 1 x17 + 1 x18 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 x24 1 x22 1 x17 1 x18 >= 1 ;
+    ASSIGNMENT:  [-24, -22, -18, -17]
+    RUP Succeeded
+constraint 166 added:  1 x17 + 1 x18 + 1 x22 + 1 x24 >= 1
+RUP STEP:  u 1 ~x15 1 x7 1 ~x24 1 x2 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-18, 15, -17, 24, -7, -2]
+    RUP Succeeded
+constraint 167 added:  1 x2 + 1 x7 + 1 ~x24 + 1 x17 + 1 ~x15 + 1 x18 >= 1
+RUP STEP:  u 1 x20 1 x1 1 ~x24 1 x2 1 x7 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-20, -18, -17, -2, 24, -7, -1]
+    RUP Succeeded
+constraint 168 added:  1 x1 + 1 x2 + 1 x7 + 1 ~x24 + 1 x17 + 1 x18 + 1 x20 >= 1
+RUP STEP:  u 1 x1 1 x7 1 ~x24 1 x2 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-18, -17, -2, 24, -7, -1]
+    RUP Succeeded
+constraint 169 added:  1 x1 + 1 x2 + 1 x7 + 1 ~x24 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 ~x27 1 ~x24 1 x18 >= 1 ;
+    ASSIGNMENT:  [-18, 24, 27]
+    RUP Succeeded
+constraint 170 added:  1 ~x27 + 1 ~x24 + 1 x18 >= 1
+RUP STEP:  u 1 ~x1 1 x15 1 ~x24 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [1, -18, -17, -15, 24]
+    RUP Succeeded
+constraint 171 added:  1 ~x24 + 1 x15 + 1 x17 + 1 x18 + 1 ~x1 >= 1
+RUP STEP:  u 1 x15 1 x2 1 x17 1 ~x24 1 x18 >= 1 ;
+    ASSIGNMENT:  [-18, -17, -15, 24, -2]
+    RUP Succeeded
+constraint 172 added:  1 x2 + 1 ~x24 + 1 x15 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 x2 1 ~x24 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-18, -17, 24, -2]
+    RUP Succeeded
+constraint 173 added:  1 x2 + 1 ~x24 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 ~x15 1 x9 1 x7 1 x18 1 x19 1 x17 1 x27 >= 1 ;
+    ASSIGNMENT:  [-27, -19, -18, 15, -17, -9, -7]
+    RUP Succeeded
+constraint 174 added:  1 x7 + 1 x9 + 1 x17 + 1 ~x15 + 1 x18 + 1 x19 + 1 x27 >= 1
+RUP STEP:  u 1 ~x24 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-18, -17, 24]
+    RUP Succeeded
+constraint 175 added:  1 ~x24 + 1 x17 + 1 x18 >= 1
+RUP STEP:  u 1 ~x28 1 x15 1 x17 >= 1 ;
+    ASSIGNMENT:  [-17, -15, 28]
+    RUP Succeeded
+constraint 176 added:  1 ~x28 + 1 x15 + 1 x17 >= 1
+RUP STEP:  u 1 x28 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-28, -18, -17]
+    RUP Succeeded
+constraint 177 added:  1 x17 + 1 x18 + 1 x28 >= 1
+RUP STEP:  u 1 x18 1 x17 >= 1 ;
+    ASSIGNMENT:  [-18, -17]
+    RUP Succeeded
+constraint 178 added:  1 x18 + 1 x17 >= 1
+RUP STEP:  u 1 ~x1 1 x23 1 x28 1 ~x9 1 x13 >= 1 ;
+    ASSIGNMENT:  [1, -28, -23, 9, -13]
+    RUP Succeeded
+constraint 179 added:  1 x28 + 1 x13 + 1 x23 + 1 ~x9 + 1 ~x1 >= 1
+RUP STEP:  u 1 ~x18 >= 1 ;
+    ASSIGNMENT:  [18]
+    RUP Succeeded
+constraint 180 added:  1 ~x18 >= 1
+RUP STEP:  u 1 ~x9 1 x28 >= 1 ;
+    ASSIGNMENT:  [9, -28]
+    RUP Succeeded
+constraint 181 added:  1 x28 + 1 ~x9 >= 1
+RUP STEP:  u 1 x28 >= 1 ;
+    ASSIGNMENT:  [-28]
+    RUP Succeeded
+constraint 182 added:  1 x28 >= 1
+RUP STEP:  u 1 ~x1 1 x9 >= 1 ;
+    ASSIGNMENT:  [1, -9]
+    RUP Succeeded
+constraint 183 added:  1 x9 + 1 ~x1 >= 1
+RUP STEP:  u 1 x9 >= 1 ;
+    ASSIGNMENT:  [-9]
+    RUP Succeeded
+constraint 184 added:  1 x9 >= 1
+RUP STEP:  u 1 ~x5 >= 1 ;
+    ASSIGNMENT:  [5]
+    RUP Succeeded
+constraint 185 added:  1 ~x5 >= 1
+RUP STEP:  u >= 1 ;
+    ASSIGNMENT:  []
+    RUP Succeeded
+constraint 186 added:   >= 1
+Contradiction Found

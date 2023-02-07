@@ -1,0 +1,30 @@
+pseudo-Boolean proof version 1.2
+f 14
+u 1 ~xa1 1 ~xb2 1 ~xc3 >= 1 ;
+u 1 ~xa1 1 ~xb2 >= 1 ;
+u 1 ~xa1 1 ~xb3 1 ~xc2 >= 1 ;
+u 1 ~xa1 1 ~xb3 >= 1 ;
+u 1 ~xa1 1 ~xb4 1 ~xc2 >= 1 ;
+u 1 ~xa1 1 ~xb4 >= 1 ;
+u 1 ~xa1 >= 1 ;
+u 1 ~xa2 1 ~xb1 1 ~xc3 >= 1 ;
+u 1 ~xa2 1 ~xb1 >= 1 ;
+u 1 ~xa2 1 ~xb3 1 ~xc1 >= 1 ;
+u 1 ~xa2 1 ~xb3 >= 1 ;
+u 1 ~xa2 1 ~xb4 1 ~xc1 >= 1 ;
+u 1 ~xa2 1 ~xb4 >= 1 ;
+u 1 ~xa2 >= 1 ;
+u 1 ~xa3 1 ~xb1 1 ~xc2 >= 1 ;
+u 1 ~xa3 1 ~xb1 >= 1 ;
+u 1 ~xa3 1 ~xb2 1 ~xc1 >= 1 ;
+u 1 ~xa3 1 ~xb2 >= 1 ;
+u 1 ~xa3 1 ~xb4 1 ~xc2 >= 1 ;
+u 1 ~xa3 1 ~xb4 >= 1 ;
+u 1 ~xa3 >= 1 ;
+u 1 ~xb2 1 ~xc3 >= 1 ;
+u 1 ~xb2 >= 1 ;
+u 1 ~xb3 1 ~xc2 >= 1 ;
+u 1 ~xb3 >= 1 ;
+u 1 ~xb1 1 ~xc2 >= 1 ;
+u 1 ~xb1 >= 1 ;
+u >= 1 ;

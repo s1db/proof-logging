@@ -1,0 +1,8 @@
+constraint 1 added:  1 x8 + 1 x9 + 1 x2 + 1 x3 >= 1
+constraint 2 added:  1 x8 + 1 x9 + 1 x3 + 1 ~x2 >= 1
+constraint 3 added:  1 x8 + 1 x9 + 1 x4 + 1 ~x3 >= 1
+constraint 4 added:  1 x8 + 1 x9 + 1 ~x4 + 1 ~x3 >= 1
+MODEL PARSED -- NO OF CONSTRAINTS:  4
+RUP STEP:  u 1 x8 1 x9 >= 1 
+    ASSIGNMENT:  [-8, -9]
+    RUP Failed -- cannot add constraint

@@ -1,0 +1,10 @@
+* #variable= 20 #constraint= 14
+1 xa1 1 xa2 1 xa3 1 xa4 = 1 ;
+1 xb1 1 xb2 1 xb3 1 xb4 = 1 ;
+1 xc1 1 xc2 1 xc3 1 xc4 = 1 ;
+1 xd1 1 xd2 1 xd3 1 xd4 = 1 ;
+1 xe1 1 xe2 1 xe3 1 xe4 = 1 ;
+1 ~xa1 1 ~xb1 1 ~xc1 1 ~xd1 1 ~xe1 >= 4 ;
+1 ~xa2 1 ~xb2 1 ~xc2 1 ~xd2 1 ~xe2 >= 4 ;
+1 ~xa3 1 ~xb3 1 ~xc3 1 ~xd3 1 ~xe3 >= 4 ;
+1 ~xa4 1 ~xb4 1 ~xc4 1 ~xd4 1 ~xe4 >= 4 ;
